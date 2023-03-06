@@ -1,1 +1,17 @@
 // CSS down below
+
+// Background Colour for navigation bar
+.navi {
+  overflow: hidden;
+  background-color: #FECCE2;
+}
+
+// Text Colour on navigation bar, sizing of text font, sizing of the button itself
+.navi a {
+  float: left;
+  color: #000000;
+  text-align: left;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
