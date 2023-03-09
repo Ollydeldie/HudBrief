@@ -1,4 +1,10 @@
 <?php
+session_start();
+
+if (!empty($_SESSION["username"])) {
+   header("location: index.html");
+  die();
+}
 ?>
 <html>
   <head>
