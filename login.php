@@ -5,6 +5,11 @@ if (!empty($_SESSION["username"])) {
    header("location: index.html");
   die();
 }
+
+if(empty($_SESSION["username"])){
+   echo $_SESSION["username"];
+   die();
+}
 ?>
 <html>
   <head>
