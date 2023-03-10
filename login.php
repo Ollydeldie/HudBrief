@@ -6,11 +6,6 @@ if (!empty($_SESSION["username"])) {
   die();
 }
 
-if(empty($_SESSION["username"])){
-   echo $_SESSION["username"];
-   die();
-}
-
 if($count == 1) {
    $_SESSION["username"] = $username;
    
