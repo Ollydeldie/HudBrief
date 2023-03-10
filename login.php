@@ -15,6 +15,8 @@ if($count == 1) {
 } else {
     $error = "Invalid username or password!";
 }
+
+if (!empty($_POST['username'] && !empty($_POST['password'])) {}
 ?>
 <html>
   <head>
