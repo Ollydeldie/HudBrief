@@ -18,7 +18,7 @@ require_once('connection.php');
       </nav>
     
     <div class="intro">
-        <h2> Upcoming Events</h2>
+        <h2> Hotels</h2>
         <p1> Here are the best Hotels the town has to offer: </p1>
       </div>
   </body>
